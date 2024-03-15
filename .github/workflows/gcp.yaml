@@ -8,7 +8,7 @@
         name: Build and Push to GCP
         runs-on: ubuntu-latest
         env:
-          IMAGE_NAME: GCP-lesson01
+          IMAGE_NAME: gcp-lesson01
           PROJECT_ID: gcp-deployment-417311
         steps:
         - name: Checkout
